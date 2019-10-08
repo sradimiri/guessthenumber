@@ -1,7 +1,7 @@
 secret = 41
 
 
-for x in range(5):
+while True:
     guess = int(input("Guess the number between 1 and 100: "))
 
     if guess == secret:
